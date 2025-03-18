@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Offer</title>
+    <!-- ====css======= -->
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="add_to_cart">
+        <h2 class="headline">YAY! It's BOGO</h2>
+        <div class="container">
+          <label class="option" >
+            <div class="top_content">
+              <div>
+                <input
+                  class="selectbtn"
+                  type="radio"
+                  name="unit"
+                  onclick="toggleOptions(1)"
+                />
+                <span class="unittext">1 Unit</span>
+                <span class="discount">10% Off</span>
+                <div class="stander_price">Standard Price</div>
+              </div>
+              <div class="price">
+                <span>$10.00 USD</span>
+                <del>$24.00 USD </del>
+              </div>
+            </div>
+            <div class="size-color-section" id="sizeColor1">
+              <table>
+                <tr class="sizecolor_text">
+                  <td></td>
+                  <td>Size</td>
+                  <td>Colour</td>
+                </tr>
+                <tr>
+                  <td>#1</td>
+                  <td>
+                    <select class="size-dropdown">
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="color-dropdown">
+                      <option>Black</option>
+                      <option>Red</option>
+                      <option>Blue</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>#2</td>
+                  <td>
+                    <select class="size-dropdown">
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="color-dropdown">
+                      <option>Colour</option>
+                      <option>Black</option>
+                      <option>Red</option>
+                      <option>Blue</option>
+                    </select>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </label>
+
+          <label class="option"  style="padding-top: 20px;">
+              <div class="most_populer">
+                  <div class="clippath"></div>
+                  <span>MOST POPULAR</span>
+
+            </div>
+            <div class="top_content">
+              <div>
+                <input
+                  class="selectbtn"
+                  type="radio"
+                  name="unit"
+                  onclick="toggleOptions(2)"
+                  checked
+                />
+                <span class="unittext">2 Unit</span>
+                <span class="discount">20% Off</span>
+              </div>
+              <div class="price">
+                <span>$18.00 USD</span>
+                <del>$24.00 USD </del>
+              </div>
+            </div>
+            <div class="size-color-section" id="sizeColor2">
+              <table>
+                <tr class="sizecolor_text">
+                  <td></td>
+                  <td>Size</td>
+                  <td>Colour</td>
+                </tr>
+                <tr>
+                  <td>#1</td>
+                  <td>
+                    <select class="size-dropdown">
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="color-dropdown">
+                      <option>Black</option>
+                      <option>Red</option>
+                      <option>Blue</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>#2</td>
+                  <td>
+                    <select class="size-dropdown">
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="color-dropdown">
+                      <option>Colour</option>
+                      <option>Black</option>
+                      <option>Red</option>
+                      <option>Blue</option>
+                    </select>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </label>
+
+          <label class="option" >
+            <div class="top_content">
+              <div>
+                <input
+                  class="selectbtn"
+                  type="radio"
+                  name="unit"
+                  onclick="toggleOptions(3)"
+                />
+                <span class="unittext">3 Unit</span>
+                <span class="discount">30% Off</span>
+              </div>
+              <div class="price">
+                <span>$24.00 USD</span>
+                <del>$24.00 USD </del>
+              </div>
+            </div>
+            <div class="size-color-section" id="sizeColor3">
+              <table>
+                <tr class="sizecolor_text">
+                  <td></td>
+                  <td>Size</td>
+                  <td>Colour</td>
+                </tr>
+                <tr>
+                  <td>#1</td>
+                  <td>
+                    <select class="size-dropdown">
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="color-dropdown">
+                      <option>Black</option>
+                      <option>Red</option>
+                      <option>Blue</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>#2</td>
+                  <td>
+                    <select class="size-dropdown">
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                    </select>
+                  </td>
+                  <td>
+                    <select class="color-dropdown">
+                      <option>Colour</option>
+                      <option>Black</option>
+                      <option>Red</option>
+                      <option>Blue</option>
+                    </select>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </label>
+          <div class="cart-section">
+            <div class="freedev">
+              <span class="free-delivery">Free Delivery</span>
+              <span class="total-price">Total : $18.00 USD</span>
+            </div>
+            <button class="add-to-cart">
+              <span class="plus-icon">+</span> Add to Cart
+            </button>
+            <p class="powered-by">@ Powered by Pumper</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =====script======= -->
+    <script src="assets/script.js"></script>
+  </body>
+</html>
