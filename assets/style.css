@@ -134,16 +134,21 @@ main {
 .discount {
   border-radius: 1px;
 
-  padding: 3px 8px;
+  padding: 4px 7px;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
-  background: linear-gradient(to right, var(--primary-color), #ef764acd);
+  background: linear-gradient(to right, var(--primary-color), #fa886f);
   color: white;
   position: relative;
   margin-left: 10px;
+
+  display: inline-block;
+  transform: translateY(-4px);
+ 
+ 
 }
 .discount::after {
   position: absolute;
@@ -303,10 +308,10 @@ td {
 .size-dropdown,
 .color-dropdown {
   min-width: 80px;
-  padding: 5px 10px;
+  padding: 6px 8px;
   font-size: 14px;
   border: 1px solid #ccc;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: white;
   cursor: pointer;
 }
